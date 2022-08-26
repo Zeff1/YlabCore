@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         int[][] randomArray = new int[10][10];
         System.out.println("Filling:");
-        arrayfill(randomArray);
+        arrayFill(randomArray);
         arrayPrint(randomArray);
         System.out.println("Smallest number is: " + arrayMin(randomArray));
         System.out.println("Largest number is: " + arrayMax(randomArray));
@@ -13,7 +13,7 @@ public class Main {
 
     }
 
-    public static void arrayfill(int[][] array) {
+    public static void arrayFill(int[][] array) {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[0].length; j++) {
                 array[i][j] = randomGenerator();
