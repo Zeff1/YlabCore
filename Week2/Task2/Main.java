@@ -18,7 +18,9 @@ public class Main {
             for (int j = i + 1; j < array.length; j++) {
                 if (array[i] + array[j] == 10)
                     System.out.println("[" + array[i] + "," + array[j] + "]");
+                return;
             }
         }
+        System.out.println("Pair not found!");
     }
 }
