@@ -1,4 +1,4 @@
-package Week1Task1;
+package Week1.Week1Task1.Task1;
 
 public class Main {
 

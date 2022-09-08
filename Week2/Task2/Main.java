@@ -1,4 +1,4 @@
-package Week2Task2;
+package Week2.Task2;
 
 /*
         Task2
