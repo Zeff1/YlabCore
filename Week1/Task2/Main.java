@@ -1,4 +1,4 @@
-package Week1.Week1Task1.Task2;
+package Week1.Task2;
 
 public class Main {
     public static void main(String[] args) {
