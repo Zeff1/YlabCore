@@ -66,15 +66,12 @@ public class Main {
         System.out.println("Duplicate filtered, grouped by name, sorted by name and id:");
         System.out.println();
 
-        Map<String, Long> dataFiltered = Arrays.stream(RAW_DATA)
+        Arrays.stream(RAW_DATA)
                 .filter(Objects::nonNull)
                 .filter(person -> person.getName() != null)
                 .sorted(Comparator.comparingInt(Person::getId))
                 .distinct()
-                .collect(Collectors.groupingBy(Person::getName, Collectors.counting()));
-        for (Map.Entry<String, Long> entry : dataFiltered.entrySet()) {
-            System.out.println("Key: " + entry.getKey());
-            System.out.println("Value: " + entry.getValue());
-        }
+                .collect(Collectors.groupingBy(Person::getName, Collectors.counting()))
+                .forEach((k, v) -> System.out.println("Key:" + k + "\nValue:" + v));
     }
 }

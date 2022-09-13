@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad1c6e2c-03d2-47ee-8f6e-d5659a885800" name="Changes" comment="" />
+    <list default="true" id="ad1c6e2c-03d2-47ee-8f6e-d5659a885800" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Week2/Task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Task1/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,13 +41,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week1Task2.Main" />
+      <option name="MAIN_CLASS_NAME" value="Week2.Task3.Main" />
       <module name="YlabCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week1Task2.*" />
+          <option name="PATTERN" value="Week2.Task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +68,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week1Task1.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.Task1.Main" />
       <module name="YlabCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week1Task1.*" />
+          <option name="PATTERN" value="Week2.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week1.Week1Task1.Task2.Main" />
+      <module name="YlabCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week1.Week1Task1.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week1.Week1Task1.Task1.Main" />
+      <module name="YlabCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week1.Week1Task1.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.Task1.Main" />
+      <module name="YlabCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.Task2.Main" />
+      <module name="YlabCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2.Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
